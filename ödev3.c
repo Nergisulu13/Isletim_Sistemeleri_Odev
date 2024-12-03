@@ -96,7 +96,7 @@ int main()
     CloseHandle(hThread2);
     CloseHandle(hThread3);
 
-    printf("Ana islem: Tum child islemleri basariyla tamamladi.\n");
+    printf("Ana islem: Tum child islemleri basariyla tamamladi\n");
 
     return 0;
 }
