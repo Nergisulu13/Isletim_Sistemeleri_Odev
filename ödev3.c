@@ -25,7 +25,7 @@ void dosyaya_veri_ekle()
     FILE *file = fopen("dosya.txt", "a");
     if (file == NULL)
     {
-        perror("Dosyaya veri eklenemedi");
+        perror("Dosyaya veri eklenemedi.");
         exit(1);
     }
     else
