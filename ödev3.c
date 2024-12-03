@@ -8,7 +8,7 @@ void dosya_olustur()
     FILE *file = fopen("dosya.txt", "w");
     if (file == NULL)
     {
-        perror("Dosya olusturulalamadi");
+        perror("Dosya olusturulalamadi.");
         exit(1);
     }
     else
