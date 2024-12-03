@@ -1,0 +1,1 @@
+bu metni 2.child process dosyaya eklemistir.
