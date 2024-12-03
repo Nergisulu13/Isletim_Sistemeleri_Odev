@@ -43,7 +43,7 @@ void dosya_oku()
     FILE *file = fopen("dosya.txt", "r");
     if (file == NULL)
     {
-        perror("Dosya acilamadi");
+        perror("Dosya acilamadi.");
         exit(1);
     }
     else
